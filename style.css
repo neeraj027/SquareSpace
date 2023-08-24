@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+html, body{
+    height: 100bh;
+    width: 100vw;
+    background-color: black;
+}
+.nav{
+    height: 80px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.nav img{
+    width: 200px;
+}
+.nav-2{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.nav-3{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.nav-3 h3{
+    align-self: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 110px;
+    font-weight: 500;
+    background-color: transparent;
+}
+.main h1 span{
+    margin: 0px 20px;
+    margin-top: 20px;
+    padding:10px 20px;
+    background-color: maroon;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.leftTop{
+    top: 15%;
+    left: 5%;
+    height: 300px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.leftBottom{
+    top: 60%;
+    left: 25%;
+    height: 200px;
+    border-radius: 50px;
+    position: absolute;
+
+}
+
+.rightBottom{
+    top: 50%;
+    right: 15%;
+    height: 300px;
+    border-radius: 50px;
+    position: absolute;
+
+}
+
+.rightTop{
+    top: 10%;
+    right: 15%;
+    height: 200px;
+    border-radius: 50px;
+    position: absolute;
+
+}
+
