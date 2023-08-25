@@ -15,7 +15,7 @@ tl.from("h1",{
 })
 
 tl.from(".img",{
-    x:-100,
+    scale:0,
     opacity:0,
     duration:.5,
     stagger: .3  
