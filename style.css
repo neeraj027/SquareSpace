@@ -41,24 +41,35 @@ button{
     background-color: whitesmoke;
     border: none;
 }
-
-.main h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.heading {
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
+    border: white solid 2px;
     color: white;
-    font-size: 110px;
-    font-weight: 500;
-    background-color: transparent;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    position: relative;
 }
-.main h1 span{
-    margin: 0px 20px;
-    margin-top: 20px;
-    padding:10px 20px;
-    background-color: maroon;
+.heading h1{
+    width: 100px;
+    height: 100px;
+    border: solid white;
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 120px;
+    font-weight: 700;
+}
+.heading h1 span{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: crimson;
     border-radius: 50px;
-    font-size: 25px;
+    padding: 20px;
 }
 
 .leftTop{
@@ -95,4 +106,3 @@ button{
     position: absolute;
 
 }
-
